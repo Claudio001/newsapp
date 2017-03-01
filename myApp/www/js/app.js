@@ -34,6 +34,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
     .state('app.about', {
     url: '/about',
+    views: {
+      'content':{
+               templateUrl: 'js/app/main/about.html'
+      }
+      }
   })
 
 
