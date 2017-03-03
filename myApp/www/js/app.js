@@ -41,7 +41,23 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
   })
 
+    .state('app.film', {
+    url: '/film',
+    views: {
+      'content':{
+               templateUrl: 'js/app/film/film.html'
+      }
+      }
+  })
 
+    .state('app.film-details', {
+    url: '/film-details',
+    views: {
+      'content':{
+               templateUrl: 'js/app/film/film-details.html'
+      }
+      }
+  })
 
 //  .state('app.search', {
 //    url: '/search',
